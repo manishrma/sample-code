@@ -1,0 +1,4 @@
+Import('env')
+
+bTopview = env.Program('bTopview', 'bTopview.c')
+env.Install('../../bin', bTopview)
