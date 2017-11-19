@@ -1,0 +1,18 @@
+
+Import('env')
+
+src = ['aAlgorithmCrush.c',
+       'aDiagonalPrint.c',
+       'aHourGlassSum.c',
+       'aRemoveDuplicate.c',
+       'aRotatedIndex.c',
+       'aIncreasingDecreasingIndex.c',
+       'aRotate.c',
+       'aRotateMax.c',
+       'aSpiralPrint.c',
+      ]
+
+for item in src:
+    bin = env.Program(item)
+env.Clean(bin, ['#build'])
+#env.Clean(bin, ['#build/Datastructure/array'])

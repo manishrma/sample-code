@@ -1,0 +1,5 @@
+
+Import('env')
+
+subdir = ['array/SConscript']
+SConscript(subdir, 'env')
