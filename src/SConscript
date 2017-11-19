@@ -1,5 +1,6 @@
 
 Import('env')
 
-subdir = ['bTopview/SConscript']
+subdir = ['DataStructure/SConscript']
+
 SConscript(subdir, 'env')

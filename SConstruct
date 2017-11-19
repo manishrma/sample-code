@@ -3,8 +3,10 @@ import os
 
 env = Environment()
 
-subdir = ['src/SConscript']
+env.VariantDir('build', 'src', duplicate=0)
 
-SConscript(subdir, 'env')
+subdir = ['build/SConscript']
+
+env.SConscript(subdir, 'env')
 
 Export('env')
