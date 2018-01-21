@@ -1,5 +1,9 @@
 
 Import('env')
 
-subdir = ['array/SConscript']
+subdir = [
+          'array/SConscript',
+#          'linklist/SConscript',
+          'tree/SConscript',
+         ]
 SConscript(subdir, 'env')

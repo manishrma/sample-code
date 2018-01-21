@@ -1,0 +1,10 @@
+
+Import('env')
+
+src = ['processDB.c']
+
+# copy the input and output txt
+for item in src:
+    bin = env.Program(item)
+env.Clean(bin, ['#build'])
+#env.Clean(bin, ['#build/DynamicProgramming/processDB'])

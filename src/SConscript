@@ -1,6 +1,8 @@
 
 Import('env')
 
-subdir = ['DataStructure/SConscript']
+subdir = ['DataStructure/SConscript',
+#          'Algorithms/SConscript',
+          'DynamicProgramming/SConscript']
 
 SConscript(subdir, 'env')

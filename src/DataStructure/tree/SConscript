@@ -1,0 +1,28 @@
+Import('env')
+
+bin = {
+    'tBst':[
+         'tBst.c',
+         'tDelete.c',
+         'tFindmin.c',
+         'tHeight.c',
+         'tInorder.c',
+         'tInsert.c',
+         'tIsBST.c',
+         'tLvlTraversal.c',
+         'tPostorder.c',
+         'tPreorder.c',
+         'tSearch.c',
+         'tTopview.c',
+#         'tTopviewLess.c',
+        ],
+    'tSwapkthNode':['tSwapkthNode.c'],
+    'tSwapNode':['tSwapNode.c']
+       }
+
+for key in bin:
+    key = env.Program(bin[key])
+
+#env.Clean(bin, ['#build'])
+#tBST = env.Program('tBst', src)
+#env.Install('../../bin', bTopview)

@@ -16,3 +16,61 @@ My test code and few programming tasks from different websites like hackerRank a
     scons
     ```
     The output will be created in build folder
+
+- The Tree List of files:-
+    ├── README.md
+    ├── SConstruct
+    └── src
+        ├── // Algorithms
+        │   ├── SConscript
+        │   └── sort
+        │       ├── SConscript
+        │       ├── sortingArray.c
+        │       └── sortingLL.c
+        ├── DataStructure
+        │   ├── array
+        │   │   ├── aAlgorithmCrush.c
+        │   │   ├── aDiagonalPrint.c
+        │   │   ├── aHourGlassSum.c
+        │   │   ├── aIncreasingDecreasingIndex.c
+        │   │   ├── aMaxSumRect2D.c
+        │   │   ├── aRemoveDuplicate.c
+        │   │   ├── aRotate.c
+        │   │   ├── aRotatedIndex.c
+        │   │   ├── aRotateMax.c
+        │   │   ├── aSpiralPrint.c
+        │   │   └── SConscript
+        │   ├── // linklist
+        │   │   ├── lCycle.c
+        │   │   ├── lDynamicArray.c
+        │   │   ├── lsingleLLOps.c
+        │   │   └── SConscript
+        │   ├── SConscript
+        │   ├── // strings
+        │   │   ├── sReverse
+        │   │   ├── sReverse.c
+        │   │   └── sSort.c
+        │   └── tree
+        │       ├── bTopview.c
+        │       ├── SConscript
+        │       ├── tBst.c
+        │       ├── tDynamicArray.sh
+        │       ├── theight.c
+        │       ├── tinorder.c
+        │       ├── tIsBST.c
+        │       ├── tLvlTraversal.c
+        │       ├── tpostoder.c
+        │       ├── tpreorder.c
+        │       ├── tSwapkthNode.c
+        │       ├── tSwapNode.c
+        │       ├── tTopview.c
+        │       └── tTopviewLess.c
+        ├── DynamicProgramming
+        │   ├── processDB
+        │   │   ├── input.txt
+        │   │   ├── output.txt
+        │   │   ├── processDB.c
+        │   │   └── SConscript
+        │   └── SConscript
+        └── SConscript
+

@@ -1,0 +1,12 @@
+22, Data Structures, 45
+23, English, 52
+22, English, 51
+26, Data Structures, 72
+23, Data Structures, 61
+26, English, 81
+26, Hindi, 81
+1022, Hindi, 81
+1022, English, 81
+1022, Data Structure, 81
+1020, Hindi, 81
+933, Hindi, 81
